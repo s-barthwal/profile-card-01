@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    position: center;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    background-size: cover;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-weight: 550;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: 'Rubik', cursive;
+    color: white;
+    font-style: normal;
+    filter: blur(3px) brightness(30px) contrast( 5px);
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 55px;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.insta,
+.telegram,
+.twitter,
+.linkedin,
+.github{
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+
+.insta i,
+.telegram i,
+.twitter i,
+.linkedin i,
+.github i{
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.insta span,
+.telegram span,
+.twitter span,
+.linkedin span,
+.github span{
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+
+.insta:hover,
+.telegram:hover,
+.twitter:hover,
+.linkedin:hover,
+.github:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.10);
+}
+
+.insta:hover i,
+.telegram:hover i,
+.twitter:hover i,
+.linkedin:hover i,
+.github:hover i{
+    padding-right: 0;
+    color: #fff;
+}
+
+.insta:hover span,
+.telegram:hover span,
+.twitter:hover span,
+.linkedin:hover span,
+.github:hover span{
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.insta {
+    color: #c71e7e;
+}
+
+.insta i {
+    color: #c71e7e;
+}
+
+.insta:hover {
+    background: linear-gradient(to right, #c71e7e 0%, #c71e7e 100%);
+}
+
+.insta:hover i {
+    transform: translateX(45px);
+}
+
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.twitter i {
+    color: #1DA1F2;
+}
+
+.twitter:hover {
+    background: #1DA1F2;
+}
+
+.twitter:hover i {
+    transform: translateX(38px);
+}
+
+
+.telegram {
+    color: #0088cc;
+}
+
+.telegram i {
+    color: #0088cc;
+}
+
+.telegram:hover {
+    background: #0088cc;
+}
+
+.telegram:hover i {
+    transform: translateX(45px);
+}
+
+.linkedin {
+    color: #0f19d6;
+}
+
+.linkedin i {
+    color: #0a06d2;
+}
+
+.linkedin:hover {
+    background: linear-gradient(to right, #0b1daa 0%, #1e0fbd 100%);
+}
+
+.linkedin:hover i {
+    transform: translateX(45px);
+}
+
+.github {
+    color: #14082a;
+}
+
+.github i {
+    color: #230a34;
+}
+
+.github:hover {
+    background: linear-gradient(to right, #18062e 0%, #15052c 100%);
+}
+
+.github:hover i {
+    transform: translateX(45px);
+}
+
+.Outro {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Pattaya', sans-serif;
+}
